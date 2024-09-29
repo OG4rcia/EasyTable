@@ -24,7 +24,3 @@ function openModal(modalId) {
 function closeModal(modalId) {
     document.getElementById(modalId).style.display = "none";
 }
-
-function goHome(){
-    window.open('/index.html')
-}
