@@ -1,0 +1,20 @@
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #007BFF;
+    color: rgb(235, 235, 235);
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 1.2em;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

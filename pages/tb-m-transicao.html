@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Periódica</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="../assets/elements-filter/tb-m-transicao/element.css">
+    <link rel="stylesheet" href="../assets/elements-filter/tb-m-transicao/element1.css">
+    <link rel="stylesheet" href="../assets/elements-filter/tb-m-transicao/element2.css">
+    <link rel="stylesheet" href="../assets/elements-filter/tb-m-transicao/element3.css">
+    <link rel="stylesheet" href="../assets/elements-filter/tb-m-transicao/element4.css">
+    <link rel="stylesheet" href="../assets/elements-filter/tb-m-transicao/element5.css">
+    <link rel="stylesheet" href="../assets/elements-filter/tb-m-transicao/element6.css">
+    <link rel="stylesheet" href="../assets/elements-filter/tb-m-transicao/element7.css">
+    <link rel="stylesheet" href="../assets/elements-filter/tb-m-transicao/element8.css">
+    <link rel="stylesheet" href="../assets/elements-filter/tb-m-transicao/element9.css">
+    <link rel="stylesheet" href="../assets/voltar-button/voltar-button.css">
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Segunda Linha (1º Período) -->
+        <div class="voltar" style="grid-column: -25;"><a style="text-decoration: none; color: aliceblue;" href="/index.html">VOLTAR</a></div>
+        <div class="element" data-number="1" data-symbol="H" data-name="Hidrogênio" data-massa="1.008" data-energia="1" style="grid-column: 1;" onclick="openModal('modal1')">H</div>
+        <div class="element9" data-number="2" data-symbol="He" data-name="Hélio" data-massa="4.0026" data-energia="1" style="grid-column: 18;" onclick="openModal('modal2')">He</div>
+       
+        <!-- Segunda Linha (2º Período) -->
+        <div class="element1" data-number="3" data-symbol="Li" data-name="Lítio" data-massa="6.94" data-energia="2" style="grid-column: 1;" onclick="openModal('modal3')">Li</div>
+        <div class="element2" data-number="4" data-symbol="Be" data-name="Berílio" data-massa="9.0122" data-energia="2" style="grid-column: 2;" onclick="openModal('modal4')">Be</div>
+        <div class="element8" data-number="5" data-symbol="B" data-name="Boro" data-massa="10.81" data-energia="2" style="grid-column: 13;" onclick="openModal('modal5')">B</div>
+        <div class="element" data-number="6" data-symbol="C" data-name="Carbono" data-massa="12.011" data-energia="2" style="grid-column: 14;" onclick="openModal('modal6')">C</div>
+        <div class="element" data-number="7" data-symbol="N" data-name="Nitrogênio" data-massa="14.007" data-energia="2" style="grid-column: 15;" onclick="openModal('modal7')">N</div>
+        <div class="element" data-number="8" data-symbol="O" data-name="Oxigênio" data-massa="15.999" data-energia="2" style="grid-column: 16;" onclick="openModal('modal8')">O</div>
+        <div class="element" data-number="9" data-symbol="F" data-name="Flúor" data-massa="18.998" data-energia="2" style="grid-column: 17;" onclick="openModal('modal9')">F</div>
+        <div class="element9" data-number="10" data-symbol="Ne" data-name="Neônio" data-massa="20.180" data-energia="2" style="grid-column: 18;" onclick="openModal('modal10')">Ne</div>
+
+        <!-- Terceira Linha (3º Período) -->
+        <div class="element1" data-number="11" data-symbol="Na" data-name="Sódio" data-mass="22.99" data-energy-level="3" style="grid-column: 1;" onclick="openModal('modal11')">Na</div>
+        <div class="element2" data-number="12" data-symbol="Mg" data-name="Magnésio" data-mass="24.31" data-energy-level="3" style="grid-column: 2;" onclick="openModal('modal12')">Mg</div>
+        <div class="element7" data-number="13" data-symbol="Al" data-name="Alumínio" data-mass="26.98" data-energy-level="3" style="grid-column: 13;" onclick="openModal('modal13')">Al</div>
+        <div class="element8" data-number="14" data-symbol="Si" data-name="Silício" data-mass="28.09" data-energy-level="3" style="grid-column: 14;" onclick="openModal('modal14')">Si</div>
+        <div class="element" data-number="15" data-symbol="P" data-name="Fósforo" data-mass="30.97" data-energy-level="3" style="grid-column: 15;" onclick="openModal('modal15')">P</div>
+        <div class="element" data-number="16" data-symbol="S" data-name="Enxofre" data-mass="32.07" data-energy-level="3" style="grid-column: 16;" onclick="openModal('modal16')">S</div>
+        <div class="element" data-number="17" data-symbol="Cl" data-name="Cloro" data-mass="35.45" data-energy-level="3" style="grid-column: 17;" onclick="openModal('modal17')">Cl</div>
+        <div class="element9" data-number="18" data-symbol="Ar" data-name="Argônio" data-mass="39.95" data-energy-level="3" style="grid-column: 18;" onclick="openModal('modal18')">Ar</div>
+
+
+        <!-- Quarta Linha (4º Período) -->
+        <div class="element1" data-number="19" data-symbol="K" data-name="Potássio" data-mass="39.10" data-energy-level="4" style="grid-column: 1;" onclick="openModal('modal19')">K</div>
+        <div class="element2" data-number="20" data-symbol="Ca" data-name="Cálcio" data-mass="40.08" data-energy-level="4" style="grid-column: 2;" onclick="openModal('modal20')">Ca</div>
+        <div class="element3" data-number="21" data-symbol="Sc" data-name="Escândio" data-mass="44.96" data-energy-level="4" style="grid-column: 3;" onclick="openModal('modal21')">Sc</div>
+        <div class="element3" data-number="22" data-symbol="Ti" data-name="Titânio" data-mass="47.87" data-energy-level="4" style="grid-column: 4;" onclick="openModal('modal22')">Ti</div>
+        <div class="element3" data-number="23" data-symbol="V" data-name="Vanádio" data-mass="50.94" data-energy-level="4" style="grid-column: 5;" onclick="openModal('modal23')">V</div>
+        <div class="element3" data-number="24" data-symbol="Cr" data-name="Cromo" data-mass="52.00" data-energy-level="4" style="grid-column: 6;" onclick="openModal('modal24')">Cr</div>
+        <div class="element3" data-number="25" data-symbol="Mn" data-name="Manganês" data-mass="54.94" data-energy-level="4" style="grid-column: 7;" onclick="openModal('modal25')">Mn</div>
+        <div class="element3" data-number="26" data-symbol="Fe" data-name="Ferro" data-mass="55.85" data-energy-level="4" style="grid-column: 8;" onclick="openModal('modal26')">Fe</div>
+        <div class="element3" data-number="27" data-symbol="Co" data-name="Cobalto" data-mass="58.93" data-energy-level="4" style="grid-column: 9;" onclick="openModal('modal27')">Co</div>
+        <div class="element3" data-number="28" data-symbol="Ni" data-name="Níquel" data-mass="58.69" data-energy-level="4" style="grid-column: 10;" onclick="openModal('modal28')">Ni</div>
+        <div class="element3" data-number="29" data-symbol="Cu" data-name="Cobre" data-mass="63.55" data-energy-level="4" style="grid-column: 11;" onclick="openModal('modal29')">Cu</div>
+        <div class="element3" data-number="30" data-symbol="Zn" data-name="Zinco" data-mass="65.38" data-energy-level="4" style="grid-column: 12;" onclick="openModal('modal30')">Zn</div>
+        <div class="element7" data-number="31" data-symbol="Ga" data-name="Gálio" data-mass="69.72" data-energy-level="4" style="grid-column: 13;" onclick="openModal('modal31')">Ga</div>
+        <div class="element8" data-number="32" data-symbol="Ge" data-name="Germânio" data-mass="72.63" data-energy-level="4" style="grid-column: 14;" onclick="openModal('modal32')">Ge</div>
+        <div class="element8" data-number="33" data-symbol="As" data-name="Arsênio" data-mass="74.92" data-energy-level="4" style="grid-column: 15;" onclick="openModal('modal33')">As</div>
+        <div class="element" data-number="34" data-symbol="Se" data-name="Selênio" data-mass="78.96" data-energy-level="4" style="grid-column: 16;" onclick="openModal('modal34')">Se</div>
+        <div class="element" data-number="35" data-symbol="Br" data-name="Bromo" data-mass="79.90" data-energy-level="4" style="grid-column: 17;" onclick="openModal('modal35')">Br</div>
+        <div class="element9" data-number="36" data-symbol="Kr" data-name="Criptônio" data-mass="83.80" data-energy-level="4" style="grid-column: 18;" onclick="openModal('modal36')">Kr</div>
+
+
+        <!-- Quinta Linha (5º Período) -->
+        <div class="element1" data-number="37" data-symbol="Rb" data-name="Rubídio" data-mass="85.47" data-energy-level="5" style="grid-column: 1;" onclick="openModal('modal37')">Rb</div>
+        <div class="element2" data-number="38" data-symbol="Sr" data-name="Estrôncio" data-mass="87.62" data-energy-level="5" style="grid-column: 2;" onclick="openModal('modal38')">Sr</div>
+        <div class="element3" data-number="39" data-symbol="Y" data-name="Ítrio" data-mass="88.91" data-energy-level="5" style="grid-column: 3;" onclick="openModal('modal39')">Y</div>
+        <div class="element3" data-number="40" data-symbol="Zr" data-name="Zircônio" data-mass="91.22" data-energy-level="5" style="grid-column: 4;" onclick="openModal('modal40')">Zr</div>
+        <div class="element3" data-number="41" data-symbol="Nb" data-name="Nióbio" data-mass="92.91" data-energy-level="5" style="grid-column: 5;" onclick="openModal('modal41')">Nb</div>
+        <div class="element3" data-number="42" data-symbol="Mo" data-name="Molibdênio" data-mass="95.95" data-energy-level="5" style="grid-column: 6;" onclick="openModal('modal42')">Mo</div>
+        <div class="element3" data-number="43" data-symbol="Tc" data-name="Tecnécio" data-mass="98.00" data-energy-level="5" style="grid-column: 7;" onclick="openModal('modal43')">Tc</div>
+        <div class="element3" data-number="44" data-symbol="Ru" data-name="Rutênio" data-mass="101.07" data-energy-level="5" style="grid-column: 8;" onclick="openModal('modal44')">Ru</div>
+        <div class="element3" data-number="45" data-symbol="Rh" data-name="Ródio" data-mass="102.91" data-energy-level="5" style="grid-column: 9;" onclick="openModal('modal45')">Rh</div>
+        <div class="element3" data-number="46" data-symbol="Pd" data-name="Paládio" data-mass="106.42" data-energy-level="5" style="grid-column: 10;" onclick="openModal('modal46')">Pd</div>
+        <div class="element3" data-number="47" data-symbol="Ag" data-name="Prata" data-mass="107.87" data-energy-level="5" style="grid-column: 11;" onclick="openModal('modal47')">Ag</div>
+        <div class="element3" data-number="48" data-symbol="Cd" data-name="Cádmio" data-mass="112.41" data-energy-level="5" style="grid-column: 12;" onclick="openModal('modal48')">Cd</div>
+        <div class="element7" data-number="49" data-symbol="In" data-name="Índio" data-mass="114.82" data-energy-level="5" style="grid-column: 13;" onclick="openModal('modal49')">In</div>
+        <div class="element7" data-number="50" data-symbol="Sn" data-name="Estanho" data-mass="118.71" data-energy-level="5" style="grid-column: 14;" onclick="openModal('modal50')">Sn</div>
+        <div class="element8" data-number="51" data-symbol="Sb" data-name="Antimônio" data-mass="121.76" data-energy-level="5" style="grid-column: 15;" onclick="openModal('modal51')">Sb</div>
+        <div class="element8" data-number="52" data-symbol="Te" data-name="Telúrio" data-mass="127.60" data-energy-level="5" style="grid-column: 16;" onclick="openModal('modal52')">Te</div>
+        <div class="element" data-number="53" data-symbol="I" data-name="Iodo" data-mass="126.90" data-energy-level="5" style="grid-column: 17;" onclick="openModal('modal53')">I</div>
+        <div class="element9" data-number="54" data-symbol="Xe" data-name="Xenônio" data-mass="131.29" data-energy-level="5" style="grid-column: 18;" onclick="openModal('modal54')">Xe</div>
+
+
+        <!-- Sexta Linha (6º Período) -->
+        <div class="element1" data-number="55" data-symbol="Cs" data-name="Césio" data-mass="132.91" data-energy-level="6" style="grid-column: 1;" onclick="openModal('modal55')">Cs</div>
+        <div class="element2" data-number="56" data-symbol="Ba" data-name="Bário" data-mass="137.33" data-energy-level="6" style="grid-column: 2;" onclick="openModal('modal56')">Ba</div>
+        <div class="element4" data-number="57" data-symbol="La" data-name="Lantânio" data-mass="138.91" data-energy-level="6" style="grid-column: 3;" onclick="openModal('modal57')">La</div>
+        <div class="element3" data-number="72" data-symbol="Hf" data-name="Háfnio" data-mass="178.49" data-energy-level="6" style="grid-column: 4;" onclick="openModal('modal58')">Hf</div>
+        <div class="element3" data-number="73" data-symbol="Ta" data-name="Tântalo" data-mass="180.95" data-energy-level="6" style="grid-column: 5;" onclick="openModal('modal59')">Ta</div>
+        <div class="element3" data-number="74" data-symbol="W" data-name="Tungstênio" data-mass="183.84" data-energy-level="6" style="grid-column: 6;" onclick="openModal('modal60')">W</div>
+        <div class="element3" data-number="75" data-symbol="Re" data-name="Rênio" data-mass="186.21" data-energy-level="6" style="grid-column: 7;" onclick="openModal('modal61')">Re</div>
+        <div class="element3" data-number="76" data-symbol="Os" data-name="Ósmio" data-mass="190.23" data-energy-level="6" style="grid-column: 8;" onclick="openModal('modal62')">Os</div>
+        <div class="element3" data-number="77" data-symbol="Ir" data-name="Irídio" data-mass="192.22" data-energy-level="6" style="grid-column: 9;" onclick="openModal('modal63')">Ir</div>
+        <div class="element3" data-number="78" data-symbol="Pt" data-name="Platina" data-mass="195.08" data-energy-level="6" style="grid-column: 10;" onclick="openModal('modal64')">Pt</div>
+        <div class="element3" data-number="79" data-symbol="Au" data-name="Ouro" data-mass="196.97" data-energy-level="6" style="grid-column: 11;" onclick="openModal('modal65')">Au</div>
+        <div class="element3" data-number="80" data-symbol="Hg" data-name="Mercúrio" data-mass="200.59" data-energy-level="6" style="grid-column: 12;" onclick="openModal('modal66')">Hg</div>
+        <div class="element7" data-number="81" data-symbol="Tl" data-name="Tálio" data-mass="204.38" data-energy-level="6" style="grid-column: 13;" onclick="openModal('modal67')">Tl</div>
+        <div class="element7" data-number="82" data-symbol="Pb" data-name="Chumbo" data-mass="207.2" data-energy-level="6" style="grid-column: 14;" onclick="openModal('modal68')">Pb</div>
+        <div class="element7" data-number="83" data-symbol="Bi" data-name="Bismuto" data-mass="208.98" data-energy-level="6" style="grid-column: 15;" onclick="openModal('modal69')">Bi</div>
+        <div class="element7" data-number="84" data-symbol="Po" data-name="Polônio" data-mass="209.00" data-energy-level="6" style="grid-column: 16;" onclick="openModal('modal70')">Po</div>
+        <div class="element7" data-number="85" data-symbol="At" data-name="Astato" data-mass="210.00" data-energy-level="6" style="grid-column: 17;" onclick="openModal('modal71')">At</div>
+        <div class="element9" data-number="86" data-symbol="Rn" data-name="Radônio" data-mass="222.00" data-energy-level="6" style="grid-column: 18;" onclick="openModal('modal72')">Rn</div>
+
+
+        <!-- Sétima Linha (7º Período) -->
+        <div class="element1" data-number="87" data-symbol="Fr" data-name="Frâncio" data-mass="223.00" data-energy-level="7" style="grid-column: 1;" onclick="openModal('modal87')">Fr</div>
+        <div class="element2" data-number="88" data-symbol="Ra" data-name="Rádio" data-mass="226.00" data-energy-level="7" style="grid-column: 2;" onclick="openModal('modal88')">Ra</div>
+        <div class="element5" data-number="89" data-symbol="Ac" data-name="Actínio" data-mass="227.03" data-energy-level="7" style="grid-column: 3;" onclick="openModal('modal89')">Ac</div>
+        <div class="element3" data-number="104" data-symbol="Rf" data-name="Rutherfórdio" data-mass="267.12" data-energy-level="7" style="grid-column: 4;" onclick="openModal('modal90')">Rf</div>
+        <div class="element3" data-number="105" data-symbol="Db" data-name="Dúbnio" data-mass="268.13" data-energy-level="7" style="grid-column: 5;" onclick="openModal('modal91')">Db</div>
+        <div class="element3" data-number="106" data-symbol="Sg" data-name="Seabórgio" data-mass="271.13" data-energy-level="7" style="grid-column: 6;" onclick="openModal('modal92')">Sg</div>
+        <div class="element3" data-number="107" data-symbol="Bh" data-name="Bóhrio" data-mass="270.13" data-energy-level="7" style="grid-column: 7;" onclick="openModal('modal93')">Bh</div>
+        <div class="element3" data-number="108" data-symbol="Hs" data-name="Hássio" data-mass="277.15" data-energy-level="7" style="grid-column: 8;" onclick="openModal('modal94')">Hs</div>
+        <div class="element6" data-number="109" data-symbol="Mt" data-name="Meitnério" data-mass="276.15" data-energy-level="7" style="grid-column: 9;" onclick="openModal('modal95')">Mt</div>
+        <div class="element6" data-number="110" data-symbol="Ds" data-name="Darmstádio" data-mass="281.17" data-energy-level="7" style="grid-column: 10;" onclick="openModal('modal96')">Ds</div>
+        <div class="element6" data-number="111" data-symbol="Rg" data-name="Roentgênio" data-mass="282.17" data-energy-level="7" style="grid-column: 11;" onclick="openModal('modal97')">Rg</div>
+        <div class="element6" data-number="112" data-symbol="Cn" data-name="Copernício" data-mass="285.17" data-energy-level="7" style="grid-column: 12;" onclick="openModal('modal98')">Cn</div>
+        <div class="element6" data-number="113" data-symbol="Nh" data-name="Nihônio" data-mass="286.17" data-energy-level="7" style="grid-column: 13;" onclick="openModal('modal99')">Nh</div>
+        <div class="element6" data-number="114" data-symbol="Fl" data-name="Fleróvio" data-mass="289.19" data-energy-level="7" style="grid-column: 14;" onclick="openModal('modal100')">Fl</div>
+        <div class="element6" data-number="115" data-symbol="Mc" data-name="Moscóvio" data-mass="288.19" data-energy-level="7" style="grid-column: 15;" onclick="openModal('modal101')">Mc</div>
+        <div class="element6" data-number="116" data-symbol="Lv" data-name="Livermório" data-mass="293.20" data-energy-level="7" style="grid-column: 16;" onclick="openModal('modal102')">Lv</div>
+        <div class="element6" data-number="117" data-symbol="Ts" data-name="Tenessino" data-mass="294.20" data-energy-level="7" style="grid-column: 17;" onclick="openModal('modal103')">Ts</div>
+        <div class="element6" data-number="118" data-symbol="Og" data-name="Oganessônio" data-mass="294.20" data-energy-level="7" style="grid-column: 18;" onclick="openModal('modal104')">Og</div>
+
+
+        <!-- Lantanídeos (Linha Separada) -->
+        <div class="element4" data-number="58" data-symbol="Ce" data-name="Cério" data-mass="140.12" data-energy-level="6" style="grid-column: 4;" onclick="openModal('modal58')">Ce</div>
+        <div class="element4" data-number="59" data-symbol="Pr" data-name="Praseodímio" data-mass="140.91" data-energy-level="6" style="grid-column: 5;" onclick="openModal('modal59')">Pr</div>
+        <div class="element4" data-number="60" data-symbol="Nd" data-name="Neodímio" data-mass="144.24" data-energy-level="6" style="grid-column: 6;" onclick="openModal('modal60')">Nd</div>
+        <div class="element4" data-number="61" data-symbol="Pm" data-name="Promécio" data-mass="145" data-energy-level="6" style="grid-column: 7;" onclick="openModal('modal61')">Pm</div>
+        <div class="element4" data-number="62" data-symbol="Sm" data-name="Samário" data-mass="150.36" data-energy-level="6" style="grid-column: 8;" onclick="openModal('modal62')">Sm</div>
+        <div class="element4" data-number="63" data-symbol="Eu" data-name="Európio" data-mass="151.96" data-energy-level="6" style="grid-column: 9;" onclick="openModal('modal63')">Eu</div>
+        <div class="element4" data-number="64" data-symbol="Gd" data-name="Gadolínio" data-mass="157.25" data-energy-level="6" style="grid-column: 10;" onclick="openModal('modal64')">Gd</div>
+        <div class="element4" data-number="65" data-symbol="Tb" data-name="Térbio" data-mass="158.93" data-energy-level="6" style="grid-column: 11;" onclick="openModal('modal65')">Tb</div>
+        <div class="element4" data-number="66" data-symbol="Dy" data-name="Disprósio" data-mass="162.50" data-energy-level="6" style="grid-column: 12;" onclick="openModal('modal66')">Dy</div>
+        <div class="element4" data-number="67" data-symbol="Ho" data-name="Hólmio" data-mass="164.93" data-energy-level="6" style="grid-column: 13;" onclick="openModal('modal67')">Ho</div>
+        <div class="element4" data-number="68" data-symbol="Er" data-name="Érbio" data-mass="167.26" data-energy-level="6" style="grid-column: 14;" onclick="openModal('modal68')">Er</div>
+        <div class="element4" data-number="69" data-symbol="Tm" data-name="Túlio" data-mass="168.93" data-energy-level="6" style="grid-column: 15;" onclick="openModal('modal69')">Tm</div>
+        <div class="element4" data-number="70" data-symbol="Yb" data-name="Itérbio" data-mass="173.05" data-energy-level="6" style="grid-column: 16;" onclick="openModal('modal70')">Yb</div>
+        <div class="element4" data-number="71" data-symbol="Lu" data-name="Lutécio" data-mass="174.97" data-energy-level="6" style="grid-column: 17;" onclick="openModal('modal71')">Lu</div>
+
+        <!-- Actinídeos (Linha Separada) -->
+        <div class="element5" data-number="90" data-symbol="Th" data-name="Tório" data-mass="232.04" data-energy-level="7" style="grid-column: 4;" onclick="openModal('modal90')">Th</div>
+        <div class="element5" data-number="91" data-symbol="Pa" data-name="Protactínio" data-mass="231.04" data-energy-level="7" style="grid-column: 5;" onclick="openModal('modal91')">Pa</div>
+        <div class="element5" data-number="92" data-symbol="U" data-name="Urânio" data-mass="238.03" data-energy-level="7" style="grid-column: 6;" onclick="openModal('modal92')">U</div>
+        <div class="element5" data-number="93" data-symbol="Np" data-name="Netúnio" data-mass="237" data-energy-level="7" style="grid-column: 7;" onclick="openModal('modal93')">Np</div>
+        <div class="element5" data-number="94" data-symbol="Pu" data-name="Plutônio" data-mass="244" data-energy-level="7" style="grid-column: 8;" onclick="openModal('modal94')">Pu</div>
+        <div class="element5" data-number="95" data-symbol="Am" data-name="Amerício" data-mass="243" data-energy-level="7" style="grid-column: 9;" onclick="openModal('modal95')">Am</div>
+        <div class="element5" data-number="96" data-symbol="Cm" data-name="Cúrio" data-mass="247" data-energy-level="7" style="grid-column: 10;" onclick="openModal('modal96')">Cm</div>
+        <div class="element5" data-number="97" data-symbol="Bk" data-name="Berquélio" data-mass="247" data-energy-level="7" style="grid-column: 11;" onclick="openModal('modal97')">Bk</div>
+        <div class="element5" data-number="98" data-symbol="Cf" data-name="Califórnio" data-mass="251" data-energy-level="7" style="grid-column: 12;" onclick="openModal('modal98')">Cf</div>
+        <div class="element5" data-number="99" data-symbol="Es" data-name="Einstênio" data-mass="252" data-energy-level="7" style="grid-column: 13;" onclick="openModal('modal99')">Es</div>
+        <div class="element5" data-number="100" data-symbol="Fm" data-name="Férmio" data-mass="257" data-energy-level="7" style="grid-column: 14;" onclick="openModal('modal100')">Fm</div>
+        <div class="element5" data-number="101" data-symbol="Md" data-name="Mendelévio" data-mass="258" data-energy-level="7" style="grid-column: 15;" onclick="openModal('modal101')">Md</div>
+        <div class="element5" data-number="102" data-symbol="No" data-name="Nobélio" data-mass="259" data-energy-level="7" style="grid-column: 16;" onclick="openModal('modal102')">No</div>
+        <div class="element5" data-number="103" data-symbol="Lr" data-name="Lawrêncio" data-mass="262" data-energy-level="7" style="grid-column: 17;" onclick="openModal('modal103')">Lr</div>
+
+        <!-- Modais dos Elementos -->
+
+        <!-- Elemento 1 - Hidrogênio -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal1')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Hidrogênio">
+            </div>
+        </div>
+        <!-- Elemento 2 - Hélio -->
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal2')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Hélio">
+            </div>
+        </div>
+        <!-- Elemento 3 - Lítio -->
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal3')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Lítio">
+            </div>
+        </div>
+        <!-- Elemento 4 - Berílio -->
+        <div id="modal4" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal4')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Berílio">
+            </div>
+        </div>
+        <!-- Elemento 5 - Boro -->
+        <div id="modal5" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal5')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Boro">
+            </div>
+        </div>
+        <!-- Elemento 6 - Carbono -->
+        <div id="modal6" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal6')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Carbono">
+            </div>
+        </div>
+        <!-- Elemento 7 - Nitrogênio -->
+        <div id="modal7" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal7')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Nitrogênio">
+            </div>
+        </div>
+        <!-- Elemento 8 - Oxigênio -->
+        <div id="modal8" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal8')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Oxigênio">
+            </div>
+        </div>
+        <!-- Elemento 9 - Flúor -->
+        <div id="modal9" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal9')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Flúor">
+            </div>
+        </div>
+        <!-- Elemento 10 - Neônio -->
+        <div id="modal10" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal10')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Neônio">
+            </div>
+        </div>
+        <!-- Elemento 11 - Sódio -->
+        <div id="modal11" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal11')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Sódio">
+            </div>
+        </div>
+        <!-- Elemento 12 - Magnésio -->
+        <div id="modal12" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal12')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Magnésio">
+            </div>
+        </div>
+        <!-- Elemento 13 - Alumínio -->
+        <div id="modal13" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal13')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Alumínio">
+            </div>
+        </div>
+        <!-- Elemento 14 - Silício -->
+        <div id="modal14" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal14')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Silício">
+            </div>
+        </div>
+        <!-- Elemento 15 - Fósforo -->
+        <div id="modal15" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal15')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Fósforo">
+            </div>
+        </div>
+        <!-- Elemento 16 - Enxofre -->
+        <div id="modal16" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal16')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Enxofre">
+            </div>
+        </div>
+        <!-- Elemento 17 - Cloro -->
+        <div id="modal17" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal17')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Cloro">
+            </div>
+        </div>
+        <!-- Elemento 18 - Argônio -->
+        <div id="modal18" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal18')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Argônio">
+            </div>
+        </div>
+        <!-- Elemento 19 - Potássio -->
+        <div id="modal19" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal19')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Potássio">
+            </div>
+        </div>
+        <!-- Elemento 20 - Cálcio -->
+        <div id="modal20" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal20')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Cálcio">
+            </div>
+        </div>
+        <!-- Elemento 21 - Escândio -->
+        <div id="modal21" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal21')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Escândio">
+            </div>
+        </div>
+        <!-- Elemento 22 - Titânio -->
+        <div id="modal22" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal22')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Titânio">
+            </div>
+        </div>
+        <!-- Elemento 23 - Vanádio -->
+        <div id="modal23" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal23')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Vanádio">
+            </div>
+        </div>
+        <!-- Elemento 24 - Cromo -->
+        <div id="modal24" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal24')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Cromo">
+            </div>
+        </div>
+        <!-- Elemento 25 - Manganês -->
+        <div id="modal25" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal25')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Manganês">
+            </div>
+        </div>
+        <!-- Elemento 26 - Ferro -->
+        <div id="modal26" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal26')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ferro">
+            </div>
+        </div>
+        <!-- Elemento 27 - Cobalto -->
+        <div id="modal27" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal27')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Cobalto">
+            </div>
+        </div>
+        <!-- Elemento 28 - Níquel -->
+        <div id="modal28" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal28')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Níquel">
+            </div>
+        </div>
+        <!-- Elemento 29 - Cobre -->
+        <div id="modal29" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal29')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Cobre">
+            </div>
+        </div>
+        <!-- Elemento 30 - Zinco -->
+        <div id="modal30" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal30')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Zinco">
+            </div>
+        </div>
+        <!-- Elemento 31 - Gálio -->
+        <div id="modal31" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal31')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Gálio">
+            </div>
+        </div>
+        <!-- Elemento 32 - Germânio -->
+        <div id="modal32" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal32')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Germânio">
+            </div>
+        </div>
+        <!-- Elemento 33 - Arsênio -->
+        <div id="modal33" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal33')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Arsênio">
+            </div>
+        </div>
+        <!-- Elemento 34 - Selênio -->
+        <div id="modal34" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal34')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Selênio">
+            </div>
+        </div>
+        <!-- Elemento 35 - Bromo -->
+        <div id="modal35" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal35')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Bromo">
+            </div>
+        </div>
+        <!-- Elemento 36 - Criptônio -->
+        <div id="modal36" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal36')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Criptônio">
+            </div>
+        </div>
+        <!-- Elemento 37 - Rubídio -->
+        <div id="modal37" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal37')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Rubídio">
+            </div>
+        </div>
+        <!-- Elemento 38 - Estrôncio -->
+        <div id="modal38" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal38')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Estrôncio">
+            </div>
+        </div>
+        <!-- Elemento 39 - Ítrio -->
+        <div id="modal39" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal39')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ítrio">
+            </div>
+        </div>
+        <!-- Elemento 40 - Zircônio -->
+        <div id="modal40" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal40')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Zircônio">
+            </div>
+        </div>
+        <!-- Elemento 41 - Nióbio -->
+        <div id="modal41" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal41')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Nióbio">
+            </div>
+        </div>
+        <!-- Elemento 42 - Molibdênio -->
+        <div id="modal42" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal42')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Molibdênio">
+            </div>
+        </div>
+        <!-- Elemento 43 - Tecnécio -->
+        <div id="modal43" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal43')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Tecnécio">
+            </div>
+        </div>
+        <!-- Elemento 44 - Rutênio -->
+        <div id="modal44" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal44')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Rutênio">
+            </div>
+        </div>
+        <!-- Elemento 45 - Ródio -->
+        <div id="modal45" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal45')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ródio">
+            </div>
+        </div>
+        <!-- Elemento 46 - Paládio -->
+        <div id="modal46" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal46')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Paládio">
+            </div>
+        </div>
+        <!-- Elemento 47 - Prata -->
+        <div id="modal47" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal47')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem da Prata">
+            </div>
+        </div>
+        <!-- Elemento 48 - Cádmio -->
+        <div id="modal48" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal48')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Cádmio">
+            </div>
+        </div>
+        <!-- Elemento 49 - Índio -->
+        <div id="modal49" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal49')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Índio">
+            </div>
+        </div>
+        <!-- Elemento 50 - Estanho -->
+        <div id="modal50" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal50')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Estanho">
+            </div>
+        </div>
+        <!-- Elemento 51 - Antimônio -->
+        <div id="modal51" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal51')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Antimônio">
+            </div>
+        </div>
+        <!-- Elemento 52 - Telúrio -->
+        <div id="modal52" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal52')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Telúrio">
+            </div>
+        </div>
+        <!-- Elemento 53 - Iodo -->
+        <div id="modal53" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal53')">&times;</span>
+                <img src="https://via.placeholder.com" alt="Imagem do Xenônio">
+            </div>
+        </div>
+        <!-- Elemento 54 - Xenônio -->
+        <div id="modal54" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal54')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Xenônio">
+            </div>
+        </div>
+        <!-- Elemento 55 - Césio -->
+        <div id="modal55" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal55')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Césio">
+            </div>
+        </div>
+        <!-- Elemento 56 - Bário -->
+        <div id="modal56" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal56')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Bário">
+            </div>
+        </div>
+        <!-- Elemento 57 - Lantânio -->
+        <div id="modal57" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal57')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Lantânio">
+            </div>
+        </div>
+        <!-- Elemento 58 - Cério -->
+        <div id="modal58" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal58')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Cério">
+            </div>
+        </div>
+        <!-- Elemento 59 - Praseodímio -->
+        <div id="modal59" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal59')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Praseodímio">
+            </div>
+        </div>
+        <!-- Elemento 60 - Neodímio -->
+        <div id="modal60" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal60')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Neodímio">
+            </div>
+        </div>
+        <!-- Elemento 61 - Promécio -->
+        <div id="modal61" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal61')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Promécio">
+            </div>
+        </div>
+        <!-- Elemento 62 - Samário -->
+        <div id="modal62" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal62')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Samário">
+            </div>
+        </div>
+        <!-- Elemento 63 - Európio -->
+        <div id="modal63" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal63')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Európio">
+            </div>
+        </div>
+        <!-- Elemento 64 - Gadolínio -->
+        <div id="modal64" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal64')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Gadolínio">
+            </div>
+        </div>
+        <!-- Elemento 65 - Térbio -->
+        <div id="modal65" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal65')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Térbio">
+            </div>
+        </div>
+        <!-- Elemento 66 - Disprósio -->
+        <div id="modal66" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal66')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Disprósio">
+            </div>
+        </div>
+        <!-- Elemento 67 - Hólmio -->
+        <div id="modal67" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal67')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Hólmio">
+            </div>
+        </div>
+        <!-- Elemento 68 - Érbio -->
+        <div id="modal68" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal68')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Érbio">
+            </div>
+        </div>
+        <!-- Elemento 69 - Túlio -->
+        <div id="modal69" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal69')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Túlio">
+            </div>
+        </div>
+        <!-- Elemento 70 - Itérbio -->
+        <div id="modal70" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal70')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Itérbio">
+            </div>
+        </div>
+        <!-- Elemento 71 - Lutécio -->
+        <div id="modal71" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal71')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Lutécio">
+            </div>
+        </div>
+        <!-- Elemento 72 - Háfnio -->
+        <div id="modal72" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal72')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Háfnio">
+            </div>
+        </div>
+        <!-- Elemento 73 - Tântalo -->
+        <div id="modal73" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal73')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Tântalo">
+            </div>
+        </div>
+        <!-- Elemento 74 - Tungstênio -->
+        <div id="modal74" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal74')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Tungstênio">
+            </div>
+        </div>
+        <!-- Elemento 75 - Rênio -->
+        <div id="modal75" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal75')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Rênio">
+            </div>
+        </div>
+
+        <!-- Elemento 76 - Ósmio -->
+        <div id="modal76" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal76')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ósmio">
+            </div>
+        </div>
+
+        <!-- Elemento 77 - Irídio -->
+        <div id="modal77" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal77')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Irídio">
+            </div>
+        </div>
+
+        <!-- Elemento 78 - Platina -->
+        <div id="modal78" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal78')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem da Platina">
+            </div>
+        </div>
+
+        <!-- Elemento 79 - Ouro -->
+        <div id="modal79" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal79')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        
+        <!-- Elemento 80 - Ouro -->
+        <div id="modal80" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal80')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 81 - Ouro -->
+        <div id="modal81" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal81')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 82 - Ouro -->
+        <div id="modal82" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal82')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 83 - Ouro -->
+        <div id="modal83" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal83')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 84 - Ouro -->
+        <div id="modal84" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal84')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 85 - Ouro -->
+        <div id="modal85" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal85')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 86 - Ouro -->
+        <div id="modal86" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal86')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 87 - Ouro -->
+        <div id="modal87" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal87')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 88 - Ouro -->
+        <div id="modal88" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal88')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 89 - Ouro -->
+        <div id="modal89" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal89')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 90 - Ouro -->
+        <div id="modal90" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal90')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 91 - Ouro -->
+        <div id="modal91" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal91')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 92 - Ouro -->
+        <div id="modal92" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal92')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 79 - Ouro -->
+        <div id="modal79" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal79')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 93 - Ouro -->
+        <div id="modal93" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal93')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 94 - Ouro -->
+        <div id="modal94" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal94')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 95 - Ouro -->
+        <div id="modal95" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal95')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 96 - Ouro -->
+        <div id="modal96" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal96')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 97 - Ouro -->
+        <div id="modal97" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal97')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 98 - Ouro -->
+        <div id="modal98" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal98')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 99 - Ouro -->
+        <div id="modal99" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal99')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 100 - Ouro -->
+        <div id="modal100" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal100')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 101 - Ouro -->
+        <div id="modal101" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal101')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 102 - Ouro -->
+        <div id="modal102" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal102')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 103 - Ouro -->
+        <div id="modal103" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal103')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 104 - Ouro -->
+        <div id="modal104" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal104')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 105 - Ouro -->
+        <div id="modal105" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal105')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 106 - Ouro -->
+        <div id="modal106" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal106')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 107 - Ouro -->
+        <div id="modal107" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal107')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 108 - Ouro -->
+        <div id="modal108" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal108')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 109 - Ouro -->
+        <div id="modal109" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal109')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 110 - Ouro -->
+        <div id="modal110" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal110')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 111 - Ouro -->
+        <div id="modal111" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal111')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 112 - Ouro -->
+        <div id="modal112" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal112')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 113 - Ouro -->
+        <div id="modal113" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal113')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 114 - Ouro -->
+        <div id="modal114" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal114')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 115 - Ouro -->
+        <div id="modal115" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal115')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 116 - Ouro -->
+        <div id="modal116" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal116')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 117 - Ouro -->
+        <div id="modal117" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal117')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+        <!-- Elemento 118 - Ouro -->
+        <div id="modal118" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal118')">&times;</span>
+                <img src="https://via.placeholder.com/150" alt="Imagem do Ouro">
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>

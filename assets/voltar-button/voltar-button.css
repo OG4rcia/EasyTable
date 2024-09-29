@@ -1,0 +1,39 @@
+.voltar {
+    width: 100px;
+    height: 58px;
+    background-color: #445481;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px solid black;
+    font-weight: bolder;
+}
+
+.voltar:hover {
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+.voltar::after {
+    content: attr(data-number);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 10px;
+    color: #ddd;
+}
+
+.voltar::before {
+    content: attr(data-name);
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 9px;
+    color: #ddd;
+}
