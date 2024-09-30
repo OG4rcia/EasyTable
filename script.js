@@ -7,14 +7,14 @@ function openModal(modalId) {
     const energia = element.getAttribute('data-energia');
     const symbol = element.getAttribute('data-symbol');
     const name = element.getAttribute('data-name');
+    const linkImage = element.getAttribute('link-image');
     
     // Altera o conteúdo do modal
     modal.querySelector('.modal-content').innerHTML = `
         <span class="close" onclick="closeModal('${modalId}')">&times;</span>
         <h2>${name} (${symbol})</h2>
         <p>Massa Atômica: ${massa}</p>
-        <p>Nível de Energia: ${energia}</p>
-        <img src="https://via.placeholder.com/150" alt="Imagem do ${name}">
+        <img src="${linkImage}" alt="Imagem do ${name}">
     `;
     
     // Exibe o modal
