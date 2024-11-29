@@ -13,12 +13,6 @@ body {
     background-color: #3b3b3b;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(18, 50px);
-    grid-gap: 5px;
-    justify-content: center;
-}
 
 
 
@@ -63,3 +57,37 @@ body {
 .close:hover {
     color: red;
 }
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(18, 50px);
+    grid-gap: 5px;
+    justify-content: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f0f0f000;
+    padding: 20px;
+    transition: width 0.3s ease;
+  }
+  
+  /* Ajustes para telas menores diretamente no mesmo bloco */
+  @media (max-width: 1024px) {
+    .container {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  }
